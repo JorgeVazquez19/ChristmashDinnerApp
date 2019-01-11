@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C067CDA21E8A91A0035B896 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CD821E8A91A0035B896 /* FriendsViewController.swift */; };
+		6C067CDB21E8A91A0035B896 /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C067CD921E8A91A0035B896 /* FriendsViewController.xib */; };
+		6C067CDE21E8A9C10035B896 /* TaskEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CDD21E8A9C10035B896 /* TaskEntity.swift */; };
+		6C067CE021E8A9F90035B896 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CDF21E8A9F90035B896 /* Repository.swift */; };
+		6C067CE221E8AA0F0035B896 /* LocalTaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CE121E8AA0F0035B896 /* LocalTaskRepository.swift */; };
+		6C067CE421E8AA350035B896 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CE321E8AA350035B896 /* Task.swift */; };
+		6C067CE721E8AA7C0035B896 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CE521E8AA7C0035B896 /* TaskCell.swift */; };
+		6C067CE821E8AA7C0035B896 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C067CE621E8AA7C0035B896 /* TaskCell.xib */; };
+		6C067CEB21E8AB1E0035B896 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CE921E8AB1E0035B896 /* AddViewController.swift */; };
+		6C067CEC21E8AB1E0035B896 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C067CEA21E8AB1E0035B896 /* AddViewController.xib */; };
+		6C067CF021E8CEEC0035B896 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C067CEE21E8CEEC0035B896 /* EditViewController.swift */; };
+		6C067CF121E8CEEC0035B896 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C067CEF21E8CEEC0035B896 /* EditViewController.xib */; };
 		6C0BF0F021E8A65A004A9B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF0EF21E8A65A004A9B32 /* AppDelegate.swift */; };
 		6C0BF0F221E8A65A004A9B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF0F121E8A65A004A9B32 /* ViewController.swift */; };
 		6C0BF0F521E8A65A004A9B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF0F321E8A65A004A9B32 /* Main.storyboard */; };
 		6C0BF0F721E8A65D004A9B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF0F621E8A65D004A9B32 /* Assets.xcassets */; };
 		6C0BF0FA21E8A65D004A9B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF0F821E8A65D004A9B32 /* LaunchScreen.storyboard */; };
+		6C0BF10621E8A735004A9B32 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0BF10421E8A735004A9B32 /* MainViewController.swift */; };
+		6C0BF10721E8A735004A9B32 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0BF10521E8A735004A9B32 /* MainViewController.xib */; };
+		95A34FF6AD0EE3267F7536B0 /* Pods_Dinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECA72AF2FC0A12595B85C8D /* Pods_Dinner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36123EA331C56DAF1762807D /* Pods-Dinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dinner/Pods-Dinner.debug.xcconfig"; sourceTree = "<group>"; };
+		6C067CD821E8A91A0035B896 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		6C067CD921E8A91A0035B896 /* FriendsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		6C067CDD21E8A9C10035B896 /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
+		6C067CDF21E8A9F90035B896 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6C067CE121E8AA0F0035B896 /* LocalTaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTaskRepository.swift; sourceTree = "<group>"; };
+		6C067CE321E8AA350035B896 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6C067CE521E8AA7C0035B896 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		6C067CE621E8AA7C0035B896 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
+		6C067CE921E8AB1E0035B896 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		6C067CEA21E8AB1E0035B896 /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		6C067CEE21E8CEEC0035B896 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		6C067CEF21E8CEEC0035B896 /* EditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
 		6C0BF0EC21E8A65A004A9B32 /* Dinner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0BF0EF21E8A65A004A9B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C0BF0F121E8A65A004A9B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +50,10 @@
 		6C0BF0F621E8A65D004A9B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C0BF0F921E8A65D004A9B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C0BF0FB21E8A65D004A9B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0BF10421E8A735004A9B32 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6C0BF10521E8A735004A9B32 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AE8E97C6AF29279AEE8A8991 /* Pods-Dinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dinner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dinner/Pods-Dinner.release.xcconfig"; sourceTree = "<group>"; };
+		FECA72AF2FC0A12595B85C8D /* Pods_Dinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A34FF6AD0EE3267F7536B0 /* Pods_Dinner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DD9967FE812FC354F2A4EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECA72AF2FC0A12595B85C8D /* Pods_Dinner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C067CD221E8A82D0035B896 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CDF21E8A9F90035B896 /* Repository.swift */,
+				6C067CE121E8AA0F0035B896 /* LocalTaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6C067CD321E8A83B0035B896 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CE321E8AA350035B896 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C067CD421E8A8400035B896 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CD521E8A84B0035B896 /* TaskCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6C067CD521E8A84B0035B896 /* TaskCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CE521E8AA7C0035B896 /* TaskCell.swift */,
+				6C067CE621E8AA7C0035B896 /* TaskCell.xib */,
+			);
+			path = TaskCell;
+			sourceTree = "<group>";
+		};
+		6C067CD621E8A8620035B896 /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CE921E8AB1E0035B896 /* AddViewController.swift */,
+				6C067CEA21E8AB1E0035B896 /* AddViewController.xib */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		6C067CD721E8A8710035B896 /* FriendsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CD821E8A91A0035B896 /* FriendsViewController.swift */,
+				6C067CD921E8A91A0035B896 /* FriendsViewController.xib */,
+			);
+			path = FriendsViewController;
+			sourceTree = "<group>";
+		};
+		6C067CED21E8CED80035B896 /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CEE21E8CEEC0035B896 /* EditViewController.swift */,
+				6C067CEF21E8CEEC0035B896 /* EditViewController.xib */,
+			);
+			path = EditViewController;
+			sourceTree = "<group>";
+		};
 		6C0BF0E321E8A65A004A9B32 = {
 			isa = PBXGroup;
 			children = (
 				6C0BF0EE21E8A65A004A9B32 /* Dinner */,
 				6C0BF0ED21E8A65A004A9B32 /* Products */,
+				74DD253F220A756BE93DD173 /* Pods */,
+				4DD9967FE812FC354F2A4EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +158,11 @@
 		6C0BF0EE21E8A65A004A9B32 /* Dinner */ = {
 			isa = PBXGroup;
 			children = (
+				6C0BF10121E8A686004A9B32 /* Entities */,
+				6C067CD421E8A8400035B896 /* Cells */,
+				6C067CD321E8A83B0035B896 /* Models */,
+				6C067CD221E8A82D0035B896 /* Repositories */,
+				6C0BF10221E8A707004A9B32 /* ViewControllers */,
 				6C0BF0EF21E8A65A004A9B32 /* AppDelegate.swift */,
 				6C0BF0F121E8A65A004A9B32 /* ViewController.swift */,
 				6C0BF0F321E8A65A004A9B32 /* Main.storyboard */,
@@ -64,6 +173,43 @@
 			path = Dinner;
 			sourceTree = "<group>";
 		};
+		6C0BF10121E8A686004A9B32 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CDD21E8A9C10035B896 /* TaskEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6C0BF10221E8A707004A9B32 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C067CED21E8CED80035B896 /* EditViewController */,
+				6C067CD721E8A8710035B896 /* FriendsViewController */,
+				6C067CD621E8A8620035B896 /* AddViewController */,
+				6C0BF10321E8A724004A9B32 /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C0BF10321E8A724004A9B32 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6C0BF10421E8A735004A9B32 /* MainViewController.swift */,
+				6C0BF10521E8A735004A9B32 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		74DD253F220A756BE93DD173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36123EA331C56DAF1762807D /* Pods-Dinner.debug.xcconfig */,
+				AE8E97C6AF29279AEE8A8991 /* Pods-Dinner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C0BF0FE21E8A65D004A9B32 /* Build configuration list for PBXNativeTarget "Dinner" */;
 			buildPhases = (
+				726B912E40B9660D93948D97 /* [CP] Check Pods Manifest.lock */,
 				6C0BF0E821E8A65A004A9B32 /* Sources */,
 				6C0BF0E921E8A65A004A9B32 /* Frameworks */,
 				6C0BF0EA21E8A65A004A9B32 /* Resources */,
+				0C37781E5082CDE0F9BFF613 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +271,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0BF0FA21E8A65D004A9B32 /* LaunchScreen.storyboard in Resources */,
+				6C067CDB21E8A91A0035B896 /* FriendsViewController.xib in Resources */,
 				6C0BF0F721E8A65D004A9B32 /* Assets.xcassets in Resources */,
 				6C0BF0F521E8A65A004A9B32 /* Main.storyboard in Resources */,
+				6C067CF121E8CEEC0035B896 /* EditViewController.xib in Resources */,
+				6C067CE821E8AA7C0035B896 /* TaskCell.xib in Resources */,
+				6C067CEC21E8AB1E0035B896 /* AddViewController.xib in Resources */,
+				6C0BF10721E8A735004A9B32 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C37781E5082CDE0F9BFF613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dinner/Pods-Dinner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dinner/Pods-Dinner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		726B912E40B9660D93948D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dinner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C0BF0E821E8A65A004A9B32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C067CEB21E8AB1E0035B896 /* AddViewController.swift in Sources */,
+				6C067CE421E8AA350035B896 /* Task.swift in Sources */,
+				6C067CDE21E8A9C10035B896 /* TaskEntity.swift in Sources */,
+				6C067CDA21E8A91A0035B896 /* FriendsViewController.swift in Sources */,
+				6C0BF10621E8A735004A9B32 /* MainViewController.swift in Sources */,
 				6C0BF0F221E8A65A004A9B32 /* ViewController.swift in Sources */,
 				6C0BF0F021E8A65A004A9B32 /* AppDelegate.swift in Sources */,
+				6C067CE221E8AA0F0035B896 /* LocalTaskRepository.swift in Sources */,
+				6C067CE721E8AA7C0035B896 /* TaskCell.swift in Sources */,
+				6C067CF021E8CEEC0035B896 /* EditViewController.swift in Sources */,
+				6C067CE021E8A9F90035B896 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +481,7 @@
 		};
 		6C0BF0FF21E8A65D004A9B32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36123EA331C56DAF1762807D /* Pods-Dinner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +500,7 @@
 		};
 		6C0BF10021E8A65D004A9B32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8E97C6AF29279AEE8A8991 /* Pods-Dinner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
